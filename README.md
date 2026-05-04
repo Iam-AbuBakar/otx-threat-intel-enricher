@@ -36,7 +36,7 @@ Bash
 export OTX_KEY="your_actual_api_key" && chmod +x enrich_single.sh && ./enrich_single.sh 157.20.182.75
 Output: single_ip_enrichment.json and single_ip_mitre.txt.
 
-📊 Output Descriptions
+Output Descriptions
 Full JSON Enrichment: Contains the complete technical profile of the IP, including Reputation, ASN, Geography, and all associated Threat Pulses.
 
 MITRE Mapping: A filtered summary of specific adversary tactics and techniques (TTPs) linked to the IP, such as T1110 - Brute Force or T1071 - Application Layer Protocol.
